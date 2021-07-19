@@ -2,6 +2,5 @@
 
 (require "base.rkt")
 (provide (all-from-out "base.rkt"))
-
-(module+ main
-  (require "cli.rkt"))
+(require "command.rkt")
+(provide (all-from-out "command.rkt"))
